@@ -1,0 +1,24 @@
+Steps to run the testcase in cloud mobile(BrowserStack) with hopes, that you will be knowing browserstack working:
+
+Step1: Download the app from the below link: Ireff_5.0.2.apk
+https://www.apkmirror.com/apk/ireff/recharge-plans-dth-plans-offers-cashback/recharge-plans-dth-plans-offers-cashback-5-0-2-release/recharge-plans-dth-plans-offers-cashback-5-0-2-android-apk-download/
+
+Step2: Then, place it in a folder.
+(I placed in "C:/Users/surya.k.kumaresan/Desktop" = my filepath)
+
+Step3: Download the curl from the below link in respective bit version:
+https://curl.haxx.se/windows/
+
+Step4: Extract and go to "curl-7.61.1-win64\bin" and open the cmd from here.
+
+Step5: Give the below command in cmd with your own username, accesskey, filepath and wait for results:
+curl -u "<userName>:<accessKey>" -X POST "https://api-cloud.browserstack.com/app-automate/upload" -F "file=@<filePath>/in.ireff.android_5.0.2.apk"
+
+Step6: Now copy the app-id given as an output in cmd screen and paste it in the value of "app" under androidConfig.properties.
+(eg, from cmd screen=>bs://80e1ff3028f048861fa8b113a090d51e145fef08)
+
+Step7: Give your own username and accesskey in the below line and paste it in the value of "androiddriverurl" under androidConfig.properties.
+https://<username>:<accesskey>@hub-cloud.browserstack.com/wd/hub
+
+Step8: Run the script as Testng
+

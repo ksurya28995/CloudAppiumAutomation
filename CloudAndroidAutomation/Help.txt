@@ -1,0 +1,4 @@
+Solution for: 
+org.openqa.selenium.WebDriverException: Returned value cannot be converted to WebElement
+
+capability.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, "60");

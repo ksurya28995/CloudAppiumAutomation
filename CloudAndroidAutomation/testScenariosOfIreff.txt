@@ -1,0 +1,4 @@
+TC1: check the list of operators_Done
+TC2: check the tabs under one operator_Done
+TC3: check the tab data_Done
+TC4: check the talktime, compare pack details & tab data_Done
