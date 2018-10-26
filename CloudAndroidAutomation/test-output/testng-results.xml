@@ -1,60 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="107983" started-at="2018-10-26T10:25:52Z" finished-at="2018-10-26T10:27:40Z">
+  <suite name="Default suite" duration-ms="106294" started-at="2018-10-26T13:33:41Z" finished-at="2018-10-26T13:35:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="107983" started-at="2018-10-26T10:25:52Z" finished-at="2018-10-26T10:27:40Z">
+    <test name="Default test" duration-ms="106294" started-at="2018-10-26T13:33:41Z" finished-at="2018-10-26T13:35:27Z">
       <class name="ireff.OperatorsList_AppTest1">
-        <test-method status="PASS" signature="init()[pri:0, instance:ireff.OperatorsList_AppTest1@1a968a59]" name="init" is-config="true" duration-ms="61438" started-at="2018-10-26T10:25:52Z" finished-at="2018-10-26T10:26:53Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:ireff.OperatorsList_AppTest1@5442a311]" name="init" is-config="true" duration-ms="57175" started-at="2018-10-26T13:33:41Z" finished-at="2018-10-26T13:34:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="FAIL" signature="startingTest()[pri:0, instance:ireff.OperatorsList_AppTest1@1a968a59]" name="startingTest" duration-ms="30597" started-at="2018-10-26T10:26:53Z" finished-at="2018-10-26T10:27:24Z">
-          <exception class="java.lang.Exception">
-            <message>
-              <![CDATA[Element not found: new UiSelector().resourceId("in.ireff.android:id/imageView1")]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.Exception: Element not found: new UiSelector().resourceId("in.ireff.android:id/imageView1")
-at AppiumCore.ElementAction.waitForElement(ElementAction.java:262)
-at AppiumCore.ElementAction.getElement(ElementAction.java:60)
-at AppiumCore.ElementAction.tap(ElementAction.java:105)
-at IreffImplements.ireff_Implements.validNewOperatorsList(ireff_Implements.java:39)
-at ireff.OperatorsList_AppTest1.startingTest(OperatorsList_AppTest1.java:23)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.Exception -->
+        <test-method status="PASS" signature="startingTest()[pri:0, instance:ireff.OperatorsList_AppTest1@5442a311]" name="startingTest" duration-ms="33073" started-at="2018-10-26T13:34:38Z" finished-at="2018-10-26T13:35:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startingTest -->
-        <test-method status="PASS" signature="terminate()[pri:0, instance:ireff.OperatorsList_AppTest1@1a968a59]" name="terminate" is-config="true" duration-ms="15896" started-at="2018-10-26T10:27:24Z" finished-at="2018-10-26T10:27:40Z">
+        <test-method status="PASS" signature="terminate()[pri:0, instance:ireff.OperatorsList_AppTest1@5442a311]" name="terminate" is-config="true" duration-ms="16017" started-at="2018-10-26T13:35:11Z" finished-at="2018-10-26T13:35:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
